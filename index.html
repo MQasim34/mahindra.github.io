@@ -145,10 +145,20 @@
                                                 <img src="assets/images/whislist.png" width="25px" alt="">
                                                 <span>lists</span>
                                             </a>
-                                            <a href="" class="d-flex align-items-center text-black">
-                                                <img src="assets/images/shopping-cart.png" width="15px" alt="">
-                                                <span>cart</span>
-                                            </a>
+
+
+                                            <div class="for-the-cart body position-relative">
+                                                <a href="" class="d-flex align-items-center text-black">
+                                                    <img src="assets/images/shopping-cart.png" width="15px" alt="">
+                                                    <span>cart</span>
+                                                </a>
+                                                <div class="cart-basket">
+                                                    <div id="cart-basket">
+                                                        <!-- added from the cart.js-->
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -661,6 +671,7 @@
 
     <script src="assets/js/shopData.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script src="assets/js/cart.js"></script>
 
     <script>
         $(document).ready(function () {
